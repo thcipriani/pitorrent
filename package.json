@@ -1,0 +1,29 @@
+{
+  "name": "pitorrent",
+  "version": "0.0.1",
+  "description": "raspberry pi torrentcast",
+  "main": "pitorrent.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thcipriani/pitorrent"
+  },
+  "keywords": [
+    "torrent",
+    "raspberrypi",
+    "omxplayer"
+  ],
+  "author": {
+    "name": "Tyler Cipriani",
+    "email": "tyler@tylercipriani.com"
+  },
+  "bin": "bin/pitorrent",
+  "license": "MIT",
+  "dependencies": {
+    "read-torrent": "*",
+    "peerflix": "*",
+    "omxctrl": "*"
+  }
+}
